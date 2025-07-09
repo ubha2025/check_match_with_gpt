@@ -12,7 +12,7 @@ openai.api_key = OPENAI_API_KEY
 
 app = Flask(__name__)
 DOCUMENT_FOLDER = "uploads"
-
+# changes
 def extract_text(file_path):
     ext = os.path.splitext(file_path)[1].lower()
     if ext == ".docx":
